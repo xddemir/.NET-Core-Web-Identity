@@ -1,0 +1,17 @@
+@page
+@model WebApp.IdentityExamaple.Pages.HRManager
+
+<div>
+    Welcome to HR Department
+    <br/>
+    
+    <ul>
+        @foreach (var item in Model.weatherForecastItems)
+        {
+            <li>
+                @item.Date.ToShortDateString() - @item.Summary
+            </li>
+        }
+        
+    </ul>
+</div>

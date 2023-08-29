@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vWDipC/GCv748dzF4nfYmuFDpx1TSDc+Qn5lCNH2Piw=",
+  "Source": "WebApi.IdentityExample",
+  "BasePath": "_content/WebApi.IdentityExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

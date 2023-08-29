@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.IdentityExamaple", "WebApp.IdentityExamaple\WebApp.IdentityExamaple.csproj", "{B3099DA5-C2E5-472D-8F02-962C9CC38BAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.IdentityExample", "WebApp.IdentityExample\WebApp.IdentityExample.csproj", "{B3099DA5-C2E5-472D-8F02-962C9CC38BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.IdentityExample", "WebApi.IdentityExample\WebApi.IdentityExample.csproj", "{21C54D07-B683-49D9-B0A7-DDDFD10061CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{B3099DA5-C2E5-472D-8F02-962C9CC38BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3099DA5-C2E5-472D-8F02-962C9CC38BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3099DA5-C2E5-472D-8F02-962C9CC38BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C54D07-B683-49D9-B0A7-DDDFD10061CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C54D07-B683-49D9-B0A7-DDDFD10061CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C54D07-B683-49D9-B0A7-DDDFD10061CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C54D07-B683-49D9-B0A7-DDDFD10061CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
