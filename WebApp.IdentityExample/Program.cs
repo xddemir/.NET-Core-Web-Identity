@@ -41,6 +41,12 @@ builder.Services.AddHttpClient("MyWebApi", client =>
     client.BaseAddress = new Uri("https://localhost:7271/");
 });
 
+builder.Services.AddSession(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.IdleTimeout = TimeSpan.FromMinutes(20);
+    options.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -56,6 +62,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthentication();
 

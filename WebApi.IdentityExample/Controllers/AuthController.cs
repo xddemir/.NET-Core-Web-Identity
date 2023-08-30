@@ -22,7 +22,7 @@ public class AuthController: ControllerBase
     [HttpPost]
     public IActionResult Authenticate([FromBody]Credential credential)
     {
-        if (credential.UserName == "admin" && credential.Password == "admin")
+        if (credential.Name == "admin" && credential.Password == "admin")
         {
             // creating the security context
             var claims = new List<Claim>
@@ -65,6 +65,6 @@ public class AuthController: ControllerBase
 
 public class Credential
 {
-    public string UserName { get; set; }
+    public string Name { get; set; }
     public string Password { get; set; }
 }

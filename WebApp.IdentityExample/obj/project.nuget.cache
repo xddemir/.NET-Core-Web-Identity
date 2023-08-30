@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0nJIqwgCD44LQ53/kLru4utY+SQcEy+vx5+yZg/xU6RrOu1ZFqOHcgCrpo5X1UVMZ6U/WxyNK9gfbTthDitRIQ==",
+  "dgSpecHash": "EP72pPEr628rKo9tP8HzxO0s4xaigh3Q7JOjm9mSYdn8sOHWW+rtaLHZUYGUDD0sXDFWlLHHl7iDQvaFovVTDA==",
   "success": true,
   "projectFilePath": "/Users/xddemir/RiderProjects/WebApp.IdentityExamaple/WebApp.IdentityExample/WebApp.IdentityExample.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/xddemir/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

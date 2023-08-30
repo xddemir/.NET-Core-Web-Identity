@@ -3,6 +3,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using WebApp.IdentityExamaple.Authorization;
 
 namespace WebApp.IdentityExamaple.Pages.Account;
 
@@ -51,13 +52,3 @@ public class Login : PageModel
     }
 }
 
-public class Credential
-{
-    [Required] [Display(Description = "User Name")]
-    public string Name { get; set; }
-    [Required] [DataType(DataType.Password)]
-    public string Password { get; set; }
-
-    [Display(Name = "Remember Me")]
-    public bool RememberMe { get; set; }
-}
